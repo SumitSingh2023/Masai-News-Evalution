@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 1000px;
+            height: 700px;
+            margin: auto;   
+        }
+        .upper{
+            width: 100%;
+            height: 60%;
+            background-color: rgb(216, 226, 243);
+        }
+        .heading{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 22px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+
+        }
+        .cards{
+            height: 300px;
+            width: 700px;
+            margin: auto;
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows: repeat(1,1fr);
+            column-gap: 15px;
+           
+        }
+        .card1{
+            background-color: white;
+            box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border-radius: 10px;
+          
+        }
+        .imgs{
+            width: 85%;
+            margin: auto;
+            margin-top: 15px;
+          
+        }
+        .imgs>img{
+            width: 100%;
+            border-top-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+            border-top-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+        .date{
+            padding-top: 20px;
+            padding-left: 14px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: deepskyblue;
+        }
+        .investor{
+            padding-top: 10px;
+            padding-left: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            padding-right: 8px;
+
+        }
+        .msg{
+            padding-top: 10px;
+            padding-left: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            padding-right: 10px;
+            color: rgb(70, 70, 70);
+        }
+        .button{
+            text-align: center;
+            padding-top: 15px;
+            
+        }
+        button{
+            color: red;
+            border: 1px solid red;
+            border-radius: 4px;
+            width: 100px;
+            height: 30px;
+            background-color: rgb(204, 216, 236);
+            
+        }
+        button:hover{
+            background-color: rgb(236, 221, 221);
+            cursor: pointer;
+            
+        }
+        .heading2{
+            font-weight: 700;
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 30px;
+        }
+        .venture{
+           
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            width: 72%;
+            margin: auto;
+        }
+        .child-venture>img{
+            width: 92%;
+            
+            margin-left: 12px;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+            border-radius: 10px;
+          
+        }
+        #button1{
+            text-align: center;
+            width: 180px;
+            height: 40px;
+            background-color: white;
+            margin-top: 30px;
+            
+        }
+        #button1:hover{
+            background-color: rgb(236, 221, 221);
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="upper">
+            <div class="heading">
+                <p>Masai in News</p>
+            </div>
+            <div class="cards">
+                <div class="card1">
+                    <div class="imgs">
+                        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png" alt="money-control-img">
+                    </div>
+
+                    <div class="date">
+                        <p>26 Oct 2021</p>
+                    </div>
+
+                    <div class="investor">
+                        <p>Kunal Shah, Vijay Shekhar Sharma,Amrish Rau among 21 angel Investor In Masai School</p>
+
+                    </div>
+
+                    <div class="msg">
+                        <p>Masai School is aiming to expand to 20 smaller cities by March 2022 exp...</p>
+                    </div>
+
+                </div>
+                <div class="card1">
+                    <div class="imgs">
+                        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ET_3754cc10ec.png" alt="times-of-india-img">
+                    </div>
+
+                    <div class="date">
+                        <p>21 Dec 2021</p>
+                    </div>
+
+                    <div class="investor">
+                        <p>Edtech startup Masai School acquires data analytics firm prepleaf for $1 millon </p>
+
+                    </div>
+
+                    <div class="msg">
+                        <p>With their latest acquisition, Masai moves one step closer to becoming Indi...</p>
+                    </div>
+
+                </div>
+                <div class="card1">
+                    <div class="imgs">
+                        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vccircle_6ef779c958.png" alt="money-control-img">
+                    </div>
+
+                    <div class="date">
+                        <p>18 Aug 2020</p>
+                    </div>
+
+                    <div class="investor">
+                        <p>Unitus Ventures leads pre-Series A funding for coding-focussed Masai School</p>
+
+                    </div>
+
+                    <div class="msg">
+                        <p>Software coding platform Masai School has raised $2.5 million (Rs 18.6 cror...</p>
+                    </div>
+
+                </div>
+            </div>
+        <div class="button">
+            <button>See More ></button>
+        </div>
+        
+        </div>
+        <div class="lower">
+            <p class="heading2">Our Investors (Who believed in us)</p>
+
+            <div class="venture">
+                <div class="child-venture">
+                    <img src="https://www.masaischool.com/images/our-investors/india-q-borderless.svg" alt="child-img">
+
+                </div>
+                <div class="child-venture">
+                    <img src="https://www.masaischool.com/images/our-investors/omidyar-borderless.svg" alt="child-img">
+
+                </div>
+                <div class="child-venture">
+                    <img src="https://www.masaischool.com/images/our-investors/unitus-borderless.svg" alt="child-img">
+                    
+                </div>
+            </div>
+
+            <div class="button">
+                <button id="button1">SEE MORE INVESTOR ></button>
+
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
